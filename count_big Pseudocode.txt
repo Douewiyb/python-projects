@@ -1,0 +1,8 @@
+SET count_big as function and (numbers) as the arguement
+    SET counter as 0
+    FOR loop with range function to read a number in order per round
+        IF the current number is bigger than 10 
+            ADD 1 to counter
+    give back the value of counter (RETURN)
+
+SHOW count_big(input values)     SHOW=(print)

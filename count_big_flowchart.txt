@@ -1,0 +1,22 @@
+                                   ( START )
+                                       |
+                                       v
+            [ Make new function "count_big" SET argument to "numbers" ]
+                                       |
+                                       v
+                              [ SET "counter" to 0 ]
+                                       |
+                                       v
+                +-----------> < any numbers left? > -- No --> [ Give back the value of "counter" (RETURN) ]
+                |                      |                                          |
+                |                     Yes                                         v
+                |                      |                             / SHOW result of count_big /
+                |                      v                                          |
+                |            [ Take the next number ]                             v
+                |                      |                                       ( END )
+                |                      v
+                |             < is number > 10? > -- Yes --> [ ADD 1 to "counter" ]
+                |                      |                               |
+                |                      No                              |
+                |                      |                               |
+                +----------------------+-------------------------------+

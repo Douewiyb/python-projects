@@ -1,0 +1,21 @@
+SET list as a empty shop_list ([])
+
+SET add_item as a function and allow users to input a string which is then appended to shop_list and prints the item added message
+
+SET show_list as a function and use LEN to count the amount of items in shop_list and print each round of LEN next to the item name
+
+SET quantity as a function to use LEN and print the amount of items in shop_list
+
+SHOW 4 options forever until loop is broken and allow user input
+    IF the user enters "1"
+        CALL add_item
+    ELIF the user enters "2"
+        CALL show_list
+    ELIF the user enters "3"
+        CALL quantity
+    ELIF the user enters "4"
+        STOP the loop (BREAK)
+    ELSE (the user entered something other then 1,2,3,4)
+        SHOW invalid message
+
+SHOW goodbye message
